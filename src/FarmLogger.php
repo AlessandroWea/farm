@@ -1,8 +1,9 @@
 <?php
 
-require_once 'Cow.php';
-require_once 'Chicken.php';
-require_once 'Farm.php';
+namespace Alewea\Farm;
+
+use Alewea\Farm\Animals\Chicken;
+use Alewea\Farm\Animals\Cow;
 
 class FarmLogger
 {

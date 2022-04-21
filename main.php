@@ -1,10 +1,18 @@
 <?php
 
-require_once 'Farm.php';
-require_once 'FarmLogger.php';
+require_once 'vendor/autoload.php';
+
+use Alewea\Farm\Farm;
+use Alewea\Farm\FarmLogger;
+use Alewea\Farm\Animals\Chicken;
+use Alewea\Farm\Animals\Cow;
 
 //initialisation of animals
-$animals = include 'first_animals.php';
+$animals = [];
+for($i = 0; $i < 10; $i++)
+    $animals[] = new Cow();
+for($i = 0; $i < 20; $i++)
+    $animals[] = new Chicken();
 
 //initialization of product box
 $box = [

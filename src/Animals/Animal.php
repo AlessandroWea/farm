@@ -1,5 +1,7 @@
 <?php
 
+namespace Alewea\Farm\Animals;
+
 abstract class Animal
 {
     private int $id;

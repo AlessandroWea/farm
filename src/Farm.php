@@ -1,6 +1,8 @@
 <?php
 
-require_once 'Animal.php';
+namespace Alewea\Farm;
+
+use Alewea\Farm\Animals\Animal;
 
 class Farm
 {

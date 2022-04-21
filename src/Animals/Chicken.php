@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Animal.php';
+namespace Alewea\Farm\Animals;
 
 class Chicken extends Animal
 {
